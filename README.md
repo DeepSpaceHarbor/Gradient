@@ -1,5 +1,6 @@
 ## Gradient - yet another hexo theme.
 ![](https://i.imgur.com/QBA9Z3i.jpg)
+![](https://i.imgur.com/cBKsxwu.jpg)
 
 [Check out the demo](https://randomadversary.com/Gradient/).
 
