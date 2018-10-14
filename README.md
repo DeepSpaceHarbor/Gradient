@@ -1,5 +1,8 @@
 ## Gradient - yet another hexo theme.
 ![](https://i.imgur.com/QBA9Z3i.jpg)
+
+[Check out the demo](https://randomadversary.com/Gradient/).
+
 ## Features
 - Responsive
 - Social Accounts configuration
