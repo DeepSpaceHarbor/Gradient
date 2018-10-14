@@ -1,7 +1,9 @@
 ﻿# Header
 menu:
-  Archives: /archives
-  Contact: /contact
+  ARCHIVES: /archives
+  RANDOM: '/categories/Category-1/random/'
+  CONTACT: /contact
+  ABOUT: /
 
 social:
   twitter:
@@ -10,8 +12,14 @@ social:
   github:
     url: 'https://github.com/RandomAdversary/Gradient'
     class: 'fab fa-github'
+  codepen:
+    url: 'https://codepen.io/'
+    class: 'fab fa-codepen'
   bug report:
     url: 'https://github.com/RandomAdversary/Gradient/issues'
     class: 'fas fa-bug'
+  email:
+    url: 'mailto:RandomAdversary@gmail.com'
+    class: 'far fa-envelope'
 
 featured_image: ./img/default.jpg

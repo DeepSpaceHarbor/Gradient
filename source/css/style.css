@@ -179,7 +179,8 @@ a {
 
 @media (min-width: 60em) {
   .item-1 {
-    grid-column: 1 / span 1.5;
+    grid-column: 1 / span 2;
+    
   }
   .item-1 h1 {
     font-size: 24px;

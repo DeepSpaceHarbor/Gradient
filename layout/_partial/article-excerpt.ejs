@@ -1,10 +1,12 @@
-          
+  
+  <% if(page.prev) { index+=1 }%>
+
   <div class="item-<%=index%>">
     <a href="<%- config.root %><%- item.path %>" class="post">
       <div class="thumb" style="background-image: url(<%- config.root %><%- item.featured_image || theme.featured_image %>);"></div>
       <article>
         <h1><%=item.title %></h1>
-        <% if(index != 0){ %>
+        <% if(index != 1){ %>
         <p><%- item.summary || item.excerpt %></p>
         <% } %>
         <span><%= item.date.format(config.date_format) %></span>
