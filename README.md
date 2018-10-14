@@ -6,6 +6,7 @@
 ## Features
 - Responsive
 - Social Accounts configuration
+- Featured post images
 
 ## External libraries used
 - [Bootstrap 4 with Popper.js, and jQuery](https://getbootstrap.com/)
