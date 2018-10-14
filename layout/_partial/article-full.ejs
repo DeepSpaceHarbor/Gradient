@@ -1,0 +1,17 @@
+
+   
+    <div class="container blogPost">
+    <h2 class="blog-post-title">
+        <%- item.title || item.link%>
+    </h2>
+
+    <p class="meta"><i class="far fa-clock"></i>
+    <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
+    </p>
+    <!-- Content -->
+    <%- item.content %>
+    <br/>
+    <p class="meta">
+    	 <%- partial('tags', {item: item}) %>
+    </p>
+</div>

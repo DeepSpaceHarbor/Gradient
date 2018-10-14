@@ -1,0 +1,9 @@
+      <footer class="page-footer">
+        <div class="container">
+          <div class="social-icons">
+          <% for (var socialItem in theme.social){ %>
+              <a href="<%= theme.social[socialItem].url%>" title="<%=socialItem%>" target="_blank" rel="noopener" class="<%=theme.social[socialItem].class%>"></a>
+          <% } %>
+          </div>
+        </div>
+      </footer>

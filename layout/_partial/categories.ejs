@@ -1,0 +1,5 @@
+<% if (item.categories && item.categories.length){ %>
+<%
+item.categories.forEach(function(category){%>
+<a href="<%=config.root + category.path %>"><i class="far fa-folder-open"></i> <%=category.name%> </a>
+ <% }) } %>

@@ -1,0 +1,5 @@
+<% if (item.tags && item.tags.length){ %>
+<%
+item.tags.forEach(function(tag){%>
+<a href="<%=config.root + tag.path %>"> <i class="fas fa-tags"></i> <%=tag.name%> </a>
+ <% }) } %>
