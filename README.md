@@ -11,6 +11,12 @@
 - [Bootstrap 4 with Popper.js, and jQuery](https://getbootstrap.com/)
 - [Font awesome](https://fontawesome.com/)
 
+## Installation
+
+Install the theme by using:
+`$ git clone https://github.com/RandomAdversary/Gradient.git themes/gradient`
+Then update your blog's main _config.yml to set the theme to gradient.
+
 ## Configuration
 The configuration is done in `themes/gradient/_config.yml`
 ### Menu
