@@ -1,15 +1,17 @@
 ## Gradient - yet another hexo theme.
 ![](https://i.imgur.com/QBA9Z3i.jpg)
 
-[Check out the demo](https://randomadversary.com/Gradient/).
+[Check out the demo](https://randomadversary.github.io/Gradient/).
 
 ## Features
 - Responsive
 - Featured image
+- Charts
 
 ## External libraries used
 - [Bootstrap 4 with Popper.js, and jQuery](https://getbootstrap.com/)
 - [Font awesome](https://fontawesome.com/)
+- [Chart.js](https://www.chartjs.org/)
 
 ## Installation
 
@@ -32,6 +34,7 @@ menu:
 ```
 
 ### Footer icons
+The class value comes from font awesome. Example: if the html code for the icon is `<i class="fab fa-adversal"></i>` the value for class will be `fab fa-adversal`.
 ```
 social:
   twitter:
@@ -52,3 +55,4 @@ If the post doesn't contain the featured_image attribute, then the defult image 
 
 ## Changelog
 1.0 - Initial release.
+1.1 - Added charts.js support.
