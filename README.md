@@ -7,6 +7,7 @@
 - Responsive
 - Featured image
 - Charts
+- Twitter widget.
 
 ## External libraries used
 - [Bootstrap 4 with Popper.js, and jQuery](https://getbootstrap.com/)
@@ -27,23 +28,23 @@ The configuration is done in `themes/gradient/_config.yml`
 The object key is the label and the value is the path.
 ```
 menu:
+  HOME: /
   ARCHIVES: /archives
-  RANDOM: '/categories/random/'
-  CONTACT: /contact
-  ABOUT: /
+  '#RANDOM': /categories/random/
+  CONTACT: /contact/
 ```
 
 ### Footer icons
 The class value comes from font awesome. Example: if the html code for the icon is `<i class="fab fa-adversal"></i>` the value for class will be `fab fa-adversal`.
 ```
-social:
-  twitter:
-    url: 'https://twitter.com/'
+footer_icons:
+  'Hexo.io':
+    url: 'https://hexo.io/'
+    class: 'fas fa-home'
+  '@hexojs':
+    url: 'https://twitter.com/hexojs'
     class: 'fab fa-twitter'
-  github:
-    url: 'https://github.com/RandomAdversary/Gradient'
-    class: 'fab fa-github'
-  bug report:
+  'Report issue':
     url: 'https://github.com/RandomAdversary/Gradient/issues'
     class: 'fas fa-bug'
 ```
@@ -53,6 +54,17 @@ If the post doesn't contain the featured_image attribute, then the defult image 
 
 `featured_image: ./img/default.jpg`
 
+### Sidebar
+The sidebar contains 2 things, the TL;DR widget, which displays text and embedded twitter widget.
+```
+sidebar:
+  twitter:
+    username: 'hexojs'
+    height: 800
+  tldr: 'Gradient is clean and modern hexo theme.'
+```
+
 ## Changelog
 1.0 - Initial release.
 1.1 - Added charts.js support.
+1.2 - New menu hover design. Added sidebar with tl;dr (about) widget and twitter timeline.
