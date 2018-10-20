@@ -1,17 +1,52 @@
-
-   
-    <div class="container blogPost">
-    <h2 class="blog-post-title">
-        <%- item.title || item.link%>
-    </h2>
-
-    <p class="meta"><i class="far fa-clock"></i>
-    <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
-    </p>
-    <!-- Content -->
-    <%- item.content %>
-    <br/>
-    <p class="meta">
-    	 <%- partial('tags', {item: item}) %>
-    </p>
+<div class="container blogPost">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2 class="blog-post-title">
+            <%- item.title || item.link%>
+            </h2>
+            <p class="meta"><i class="far fa-clock"></i>
+                <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
+            </p>
+            <!-- Content -->
+            <%- item.content %>
+            <br/>
+            <p class="meta">
+                <%- partial('tags', {item: item}) %>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <span><b>TL;DR</b></span>
+            <p>
+                <%=theme.sidebar.tldr%>
+            </p>
+            <hr/>
+            <span><a href="https://twitter.com/<%=theme.sidebar.twitter.username%>" target="_blank" rel="noopener"><b><i class="fab fa-twitter-square"></i> <i class="fas fa-at"></i><%=theme.sidebar.twitter.username%></b></a></span>
+            <br/>
+            <a class="twitter-timeline" data-height="<%=theme.sidebar.twitter.height%>" data-dnt="true" data-chrome="nofooter transparent noheader noborders "  href="https://twitter.com/<%=theme.sidebar.twitter.username%>?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
 </div>
+<!-- Menu fade on scroll -->
+<script>
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// Setup isScrolling variable
+var isScrolling;
+var prevScrollpos = window.pageYOffset;
+// Listen for scroll events
+window.addEventListener('scroll', function ( event ) {
+// Clear our timeout throughout the scroll
+window.clearTimeout( isScrolling );
+// Set a timeout to run after scrolling ends
+isScrolling = setTimeout(function() {
+var currentScrollPos = window.pageYOffset;
+// Run the callback
+if (prevScrollpos > currentScrollPos) {
+$("#navbar").fadeIn(1200);
+} else {
+console.log(currentScrollPos);
+$("#navbar").fadeOut(500);
+}
+prevScrollpos = currentScrollPos;
+}, 66);
+}, false);
+</script>

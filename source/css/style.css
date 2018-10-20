@@ -5,6 +5,11 @@
     src: url("../font/Typodermic - GoodTimesRg-Regular.ttf") format("truetype"), url("../font/Typodermic - GoodTimesRg-Regular.otf")  format("opentype");
 }
 
+@font-face {
+    font-family: Primal;
+    src: url("../font/PrimalWebfont.woff") format("woff"), url("../font/Primal.otf")  format("opentype");
+}
+
 body{
      font-family: 'Lato', sans-serif;
      background: #f5f7f8;
@@ -16,7 +21,8 @@ a {
 }
 
 .logo {
-  font-family: 'GoodTimes', sans-serif;
+  font-family: 'Primal', GoodTimes, Lato, sans-serif;
+  text-transform: uppercase;
 }
 .page-navbar.navbar{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -28,9 +34,11 @@ a {
 }
 
 .nav-link:hover{
-  opacity: 0.90;
-
+ opacity: 1;
+ color: #313133;
+ background-color: #313133;
 }
+
 
 .page-navbar.navbar-dark .navbar-nav .nav-link {
     color: #fff;
@@ -162,6 +170,7 @@ a {
 .post p {
   flex: 1;
   line-height: 1.4;
+  margin-top: 5px;
 }
 .post span {
   font-size: 12px;
@@ -217,5 +226,19 @@ opacity: 0.85;
 .title {
   margin-top: 3% !important;
   margin-left: 5%;
+}
+
+blockquote {
+  border-left: 5px solid #2e64e6
+
+}
+
+blockquote > * {
+    margin-left: 10px;
+}
+
+img {
+  
+  max-width: 100%;
 }
 

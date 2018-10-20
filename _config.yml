@@ -1,19 +1,26 @@
 ﻿# Header
 menu:
-  ARCHIVES: /archives
-  RANDOM: '/categories/Category-1/random/'
-  CONTACT: /contact
-  ABOUT: /
+  Home: /
+  Archives: /archives
+  '#Random': /categories/Category-1/random/
+  Contact: /contact/
 
-social:
-  twitter:
-    url: 'https://twitter.com/'
+footer_icons:
+  'Hexo.io':
+    url: 'https://hexo.io/'
+    class: 'fas fa-home'
+  '@hexojs':
+    url: 'https://twitter.com/hexojs'
     class: 'fab fa-twitter'
-  github:
-    url: 'https://github.com/RandomAdversary/Gradient'
-    class: 'fab fa-github'
-  bug report:
+  'Report issue':
     url: 'https://github.com/RandomAdversary/Gradient/issues'
     class: 'fas fa-bug'
+
+
+sidebar:
+  twitter:
+    username: 'hexojs'
+    height: 800
+  tldr: 'Gradient is clean and modern hexo theme.'
 
 featured_image: ./img/default.jpg

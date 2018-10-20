@@ -1,13 +1,21 @@
 <head>
 <meta charset="UTF-8">
-<title><%=config.title%> - <%=config.description%></title>
-<meta name="description" content="<%=config.description%>">
+
+<% if(page.title){ %>
+   <title><%=page.title%> | <%=config.title%></title>
+ <% } else{ %>  
+   <title><%=config.title%> - <%=config.description%></title>
+<% } %>
+
+
+<meta name="description" content="<%=page.summary || config.description%>">
 <meta name="author" content="<%=config.author%>">
-<meta property="og:title" content="<%=config.title%>" />
+<meta property="og:title" content="<%=page.title || config.title%>" />
 <meta property="og:description" content="<%=config.description%>" />
 <meta property='og:site_name' content='<%=config.title%>' />
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js" integrity="sha256-CfcERD4Ov4+lKbWbYqXD6aFM9M51gN4GUEtDhkWABMo=" crossorigin="anonymous"></script>
+
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
