@@ -65,6 +65,12 @@ sidebar:
 ```
 
 ## Changelog
-1.0 - Initial release.
-1.1 - Added charts.js support.
-1.2 - New menu hover design. Added sidebar with tl;dr (about) widget and twitter timeline.
+1.0
+- Initial release.
+
+1.1 
+- Added charts.js support.
+
+1.2
+- New menu hover design. 
+- Added sidebar with tl;dr (about) widget and twitter timeline.
