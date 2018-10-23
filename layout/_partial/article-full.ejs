@@ -41,10 +41,10 @@ isScrolling = setTimeout(function() {
 var currentScrollPos = window.pageYOffset;
 // Run the callback
 if (prevScrollpos > currentScrollPos) {
-$("#navbar").fadeIn(1200);
+$("#navbar").slideDown();
 } else {
 console.log(currentScrollPos);
-$("#navbar").fadeOut(500);
+$("#navbar").slideUp();
 }
 prevScrollpos = currentScrollPos;
 }, 66);
