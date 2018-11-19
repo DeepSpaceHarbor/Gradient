@@ -1,7 +1,7 @@
 ## Gradient - yet another hexo theme.
 ![](https://i.imgur.com/mgUL53h.jpg)
 
-[Check out the demo](https://randomadversary.github.io/Gradient/).
+[Check out the demo](https://hackable.mk).
 
 ## Features
 - Responsive
