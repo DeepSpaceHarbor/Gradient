@@ -50,7 +50,7 @@ footer_icons:
 ```
 
 ### Featured image
-If the post doesn't contain the featured_image attribute, then the defult image is used.
+If the post doesn't contain the featured_image attribute, then the default image is used.
 
 `featured_image: ./img/default.jpg`
 
