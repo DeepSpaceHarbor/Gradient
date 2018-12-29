@@ -1,10 +1,13 @@
-﻿# Header
+﻿# Menu
+# The object key is the label and the value is the path.
 menu:
   Home: /
   Archives: /archives
-  '#Random': /categories/Category-1/random/
-  Contact: /contact/
+  Google: https://www.google.com/
 
+# The icons at the bottom of the page.
+# The class value comes from font awesome.
+#  Example: if the html code for the icon is <i class="fas fa-home"></i> the value for class will be fas fa-home. 
 footer_icons:
   'Hexo.io':
     url: 'https://hexo.io/'
@@ -16,11 +19,26 @@ footer_icons:
     url: 'https://github.com/RandomAdversary/Gradient/issues'
     class: 'fas fa-bug'
 
+# This is reserved for meta tags.
+# List of supported items:
+# 1. Twitter card image. See: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary.html
+meta: 
+  twitter:
+    image: 'https://i.imgur.com/25K9dvJ.png'
 
+# The sidebar is reserved for a twitter feed and blocks of text/html.
 sidebar:
   twitter:
+    enabled: true
     username: 'hexojs'
     height: 800
-  tldr: 'Gradient is clean and modern hexo theme.'
+  tldr: 
+    - block1: 
+      title: 'TL;DR'
+      content: 'Yet another hexo theme.'
+    - block2: 
+      title: 'TL;DR 2'
+      content: 'No, not another one :/'
 
+# If featured_image is missing from a post, this one will be used.
 featured_image: ./img/default.jpg
