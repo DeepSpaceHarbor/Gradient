@@ -10,7 +10,7 @@
     src: url("../font/PrimalWebfont.woff") format("woff"), url("../font/Primal.otf")  format("opentype");
 }
 
-body{
+body {
      font-family: 'Lato', sans-serif;
      background: #f5f7f8;
      cursor: url('../img/cursor.png'),auto;
@@ -210,7 +210,9 @@ opacity: 0.85;
 
 .blogPost {
   margin-top: 5% !important;
-}
+  }
+
+
 
 .meta {
     color: #6c757d;

@@ -14,15 +14,9 @@
                 <%- partial('tags', {item: item}) %>
             </p>
         </div>
+
         <div class="col-sm-4">
-            <span><b>TL;DR</b></span>
-            <p>
-                <%=theme.sidebar.tldr%>
-            </p>
-            <hr/>
-            <span><a href="https://twitter.com/<%=theme.sidebar.twitter.username%>" target="_blank" rel="noopener"><b><i class="fab fa-twitter-square"></i> <i class="fas fa-at"></i><%=theme.sidebar.twitter.username%></b></a></span>
-            <br/>
-            <a class="twitter-timeline" data-height="<%=theme.sidebar.twitter.height%>" data-dnt="true" data-chrome="nofooter transparent noheader noborders "  href="https://twitter.com/<%=theme.sidebar.twitter.username%>?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                 <%- partial('sidebar', {item: item}) %>
         </div>
     </div>
 </div>
@@ -41,10 +35,9 @@ isScrolling = setTimeout(function() {
 var currentScrollPos = window.pageYOffset;
 // Run the callback
 if (prevScrollpos > currentScrollPos) {
-$("#navbar").fadeIn(1200);
+$("#navbar").slideDown();
 } else {
-console.log(currentScrollPos);
-$("#navbar").fadeOut(500);
+$("#navbar").slideUp();
 }
 prevScrollpos = currentScrollPos;
 }, 66);
