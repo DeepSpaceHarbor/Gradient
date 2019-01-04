@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://randomadversary.github.io/Gradient
-root: /Gradient/
+url: https://hexo-gradient.netlify.com/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
