@@ -2,7 +2,7 @@
 # The object key is the label and the value is the path.
 menu:
   Home: /
-  Archives: /archives
+  📁 Archives: /archives
   Google: https://www.google.com/
 
 # The icons at the bottom of the page.
@@ -10,7 +10,7 @@ menu:
 #  Example: if the html code for the icon is <i class="fas fa-home"></i> the value for class will be fas fa-home. 
 footer_icons:
   'Hexo.io':
-    url: 'https://hexo.io/'
+    url: 'https://github.com/RandomAdversary/Gradient'
     class: 'fas fa-home'
   '@hexojs':
     url: 'https://twitter.com/hexojs'

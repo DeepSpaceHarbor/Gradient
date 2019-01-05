@@ -5,17 +5,52 @@ title: >-
 date: 2018-10-14 14:15:04
 tags:
 featured_image: images/lorem.jpg
+category: futurama
 ---
 
 This is post with long title.
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu varius nisl, sit amet tempor turpis. Integer non lacinia odio. Nam sodales lacus tellus, sed ultrices nisl facilisis ut. Cras rutrum semper purus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lobortis tempor. Etiam euismod sapien vel nisi lobortis condimentum. Sed porttitor quam ut ullamcorper pellentesque. Duis maximus odio sed nulla hendrerit placerat. Mauris sed ultrices tortor. Donec dictum tortor massa. Sed purus nisl, aliquam sed ullamcorper non, aliquet eget sapien.
+# Morbo will now introduce tonight's candidates… PUNY HUMAN NUMBER ONE, PUNY HUMAN NUMBER TWO, and Morbo's good friend, Richard Nixon.
 
-Donec non dignissim nulla, nec laoreet orci. Phasellus cursus tristique eros, eu euismod odio scelerisque sit amet. In eget euismod erat. Sed maximus cursus eros ac molestie. Aenean fermentum ultrices eros quis imperdiet. Donec eleifend leo nec odio cursus tempus. Nullam eu lacinia sapien, vitae varius elit. Sed semper, elit tincidunt ultrices consequat, orci odio ullamcorper ante, in placerat est mauris ac augue.
+But I know you in the future. I cleaned your poop. Shut up and take my money! Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all.
 
-Sed ultricies est turpis. Fusce gravida felis ut tortor tempor imperdiet. Quisque id eleifend nisi. Sed id metus lacinia, sagittis neque a, fermentum odio. Etiam non quam arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque accumsan metus a mi facilisis, placerat tincidunt libero mattis. Nulla ut ante ante. In scelerisque vitae felis ac suscipit. Nulla eget velit magna. Aliquam eget lacinia purus, quis finibus libero. Nullam tincidunt lacus velit, ut dapibus ex tincidunt et. Duis ac leo sed ipsum fringilla ultrices. Mauris id dolor ipsum.
+OK, if everyone's finished being stupid. __Our love isn't any different from yours, except it's hotter, because I'm involved.__ *Dear God, they'll be killed on our doorstep!* And there's no trash pickup until January 3rd.
 
-Suspendisse potenti. Proin placerat pellentesque porta. Nullam tincidunt varius ante, eget ultrices lorem venenatis in. Donec porta fringilla ipsum eget ultrices. Nam eget massa vel tellus consequat ultricies a ac erat. Nulla quam nisl, semper luctus nunc in, malesuada suscipit enim. Cras ante eros, cursus nec nisl in, maximus auctor mi. Donec fringilla magna odio, nec eleifend risus tincidunt vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam hendrerit nibh ac mauris accumsan, sed sodales purus tempus. Aliquam convallis neque at euismod molestie. Phasellus luctus ultricies mauris, in venenatis nulla tincidunt interdum. Praesent mollis tellus eu erat cursus pellentesque. Praesent rhoncus lobortis nisl vel laoreet.
+## Oh no! The professor will hit me! But if Zoidberg 'fixes' it… then perhaps gifts!
 
-Phasellus efficitur ullamcorper suscipit. Aenean et enim quam. Integer malesuada ipsum vitae elit iaculis accumsan. Phasellus id orci fermentum, vulputate risus eu, cursus nibh. Mauris dui metus, imperdiet nec suscipit a, malesuada pulvinar purus. Donec consequat est eget ornare porta. Integer fringilla lacus a nisi ornare cursus. Nam mauris magna, tincidunt at felis nec, malesuada eleifend odio. Nunc eget dolor lorem. In nulla massa, ullamcorper semper orci quis, tristique facilisis lorem. Praesent vitae lorem non metus placerat placerat nec sed tortor. Morbi ac dapibus arcu. Donec porta ullamcorper fringilla. Nulla vitae volutpat sapien. Integer feugiat, est quis luctus hendrerit, libero felis vehicula leo, sit amet laoreet nunc felis nec urna. Nulla porta lectus sit amet vestibulum iaculis.
+Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them. Okay, I like a challenge. Oh no! The professor will hit me! But if Zoidberg 'fixes' it… then perhaps gifts!
+
+1. Who am I making this out to?
+2. You are the last hope of the universe.
+3. No, I'm Santa Claus!
+
+### Is today's hectic lifestyle making you tense and impatient?
+
+I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I'' have to pay ''them'! Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments."
+
+* Your best is an idiot!
+* Come, Comrade Bender! We must take to the streets!
+* You'll have all the Slurm you can drink when you're partying with Slurms McKenzie!
+
+Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket. I could if you hadn't turned on the light and shut off my stereo.
+
+Why would a robot need to drink? What are you hacking off? Is it my torso?! 'It is!' My precious torso! No. We're on the top. I never loved you.
+
+Ugh, it's filthy! Why not create a National Endowment for Strip Clubs while we're at it? There's no part of that sentence I didn't like! I barely knew Philip, but as a clergyman I have no problem telling his most intimate friends all about him.
+
+You're going to do his laundry? Ooh, name it after me! Bender, quit destroying the universe! Fry! Quit doing the right thing, you jerk! I've been there. My folks were always on me to groom myself and wear underpants. What am I, the pope?
+
+That could be 'my' beautiful soul sitting naked on a couch. If I could just learn to play this stupid thing. Professor, make a woman out of me. Soon enough. You've killed me! Oh, you've killed me!
+
+I'm just glad my fat, ugly mama isn't alive to see this day. Michelle, I don't regret this, but I both rue and lament it. Shut up and take my money! When will that be? I guess because my parents keep telling me to be more ladylike. As though!
+
+Moving along… Actually, that's still true. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
+
+When will that be? Hey, tell me something. You've got all this money. How come you always dress like you're doing your laundry? For one beautiful night I knew what it was like to be a grandmother. Subjugated, yet honored.
+
+Noooooo! Stop! Don't shoot fire stick in space canoe! Cause explosive decompression! Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Bender, hurry! This fuel's expensive! Also, we're dying!
+
+Too much work. Let's burn it and say we dumped it in the sewer. I'm sure those windmills will keep them cool. Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all.
+
+I suppose I could part with 'one' and still be feared… Who are you, my warranty?! In our darkest hour, we can stand erect, with proud upthrust bosoms. Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man.

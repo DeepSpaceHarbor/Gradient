@@ -1,18 +1,35 @@
 ---
-title: Welcome to Gradient
+title: ❤️ Welcome to Gradient ❤️
 date: 2018-10-14 23:47:55
-tags:
+tags: "Bob Ross Lipsum"
+category: random
 featured_image: images/welcome.jpg
 summary: Gradient is clean and modern hexo theme.
 ---
 
-Gradient is clean and modern hexo theme.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu varius nisl, sit amet tempor turpis. Integer non lacinia odio. Nam sodales lacus tellus, sed ultrices nisl facilisis ut. Cras rutrum semper purus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lobortis tempor. Etiam euismod sapien vel nisi lobortis condimentum. Sed porttitor quam ut ullamcorper pellentesque. Duis maximus odio sed nulla hendrerit placerat. Mauris sed ultrices tortor. Donec dictum tortor massa. Sed purus nisl, aliquam sed ullamcorper non, aliquet eget sapien.
+Let's have a little bit of fun today. Working it up and down, back and forth. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves. Just let this happen. We just let this flow right out of our minds.
 
-Donec non dignissim nulla, nec laoreet orci. Phasellus cursus tristique eros, eu euismod odio scelerisque sit amet. In eget euismod erat. Sed maximus cursus eros ac molestie. Aenean fermentum ultrices eros quis imperdiet. Donec eleifend leo nec odio cursus tempus. Nullam eu lacinia sapien, vitae varius elit. Sed semper, elit tincidunt ultrices consequat, orci odio ullamcorper ante, in placerat est mauris ac augue.
+Learn when to stop. It's hard to see things when you're too close. Take a step back and look. Give him a friend, we forget the trees get lonely too. A tree needs to be your friend if you're going to paint him.
 
-Sed ultricies est turpis. Fusce gravida felis ut tortor tempor imperdiet. Quisque id eleifend nisi. Sed id metus lacinia, sagittis neque a, fermentum odio. Etiam non quam arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque accumsan metus a mi facilisis, placerat tincidunt libero mattis. Nulla ut ante ante. In scelerisque vitae felis ac suscipit. Nulla eget velit magna. Aliquam eget lacinia purus, quis finibus libero. Nullam tincidunt lacus velit, ut dapibus ex tincidunt et. Duis ac leo sed ipsum fringilla ultrices. Mauris id dolor ipsum.
+Be brave. There he comes. This is your world, whatever makes you happy you can put in it. Go crazy.
 
-Suspendisse potenti. Proin placerat pellentesque porta. Nullam tincidunt varius ante, eget ultrices lorem venenatis in. Donec porta fringilla ipsum eget ultrices. Nam eget massa vel tellus consequat ultricies a ac erat. Nulla quam nisl, semper luctus nunc in, malesuada suscipit enim. Cras ante eros, cursus nec nisl in, maximus auctor mi. Donec fringilla magna odio, nec eleifend risus tincidunt vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam hendrerit nibh ac mauris accumsan, sed sodales purus tempus. Aliquam convallis neque at euismod molestie. Phasellus luctus ultricies mauris, in venenatis nulla tincidunt interdum. Praesent mollis tellus eu erat cursus pellentesque. Praesent rhoncus lobortis nisl vel laoreet.
+If you don't think every day is a good day - try missing a few. You'll see. We touch the canvas, the canvas takes what it wants. That easy. The shadows are just like the highlights, but we're going in the opposite direction. The little tiny Tim easels will let you down. Water's like me. It's laaazy ... Boy, it always looks for the easiest way to do things
 
-Phasellus efficitur ullamcorper suscipit. Aenean et enim quam. Integer malesuada ipsum vitae elit iaculis accumsan. Phasellus id orci fermentum, vulputate risus eu, cursus nibh. Mauris dui metus, imperdiet nec suscipit a, malesuada pulvinar purus. Donec consequat est eget ornare porta. Integer fringilla lacus a nisi ornare cursus. Nam mauris magna, tincidunt at felis nec, malesuada eleifend odio. Nunc eget dolor lorem. In nulla massa, ullamcorper semper orci quis, tristique facilisis lorem. Praesent vitae lorem non metus placerat placerat nec sed tortor. Morbi ac dapibus arcu. Donec porta ullamcorper fringilla. Nulla vitae volutpat sapien. Integer feugiat, est quis luctus hendrerit, libero felis vehicula leo, sit amet laoreet nunc felis nec urna. Nulla porta lectus sit amet vestibulum iaculis.
+This is where you take out all your hostilities and frustrations. It's better than kicking the puppy dog around and all that so. If you do too much it's going to lose its effectiveness. Remember how free clouds are. They just lay around in the sky all day long. Just think about these things in your mind - then bring them into your world. See. We take the corner of the brush and let it play back-and-forth. Be so very light. Be a gentle whisper.
+
+You have to make these big decisions. But they're very easily killed. Clouds are delicate. Everyone is going to see things differently - and that's the way it should be.
+
+Now we'll take the almighty fan brush. You can get away with a lot. No pressure. Just relax and watch it happen. Now let's put some happy little clouds in here. Let's build some happy little clouds up here.
+
+It's so important to do something every day that will make you happy. This is the way you take out your flustrations. Van Dyke Brown is a very nice brown, it's almost like a chocolate brown. There it is.
+
+A tree cannot be straight if it has a crooked trunk. God gave you this gift of imagination. Use it. There comes a nice little fluffer. Here's another little happy bush See how easy it is to create a little tree right in your world. By now you should be quite happy about what's happening here.
+
+You're meant to have fun in life. Work that paint. Trees grow in all kinds of ways. They're not all perfectly straight. Not every limb is perfect. Just let these leaves jump off the brush
+
+Don't kill all your dark areas - you need them to show the light. A fan brush can be your best friend. Have fun with it.
+
+Here we're limited by the time we have. Just take out whatever you don't want. It'll change your entire perspective. You need the dark in order to show the light. We can always carry this a step further. There's really no end to this. This is unplanned it really just happens. This is the fun part
+
+Just go out and talk to a tree. Make friends with it. We're trying to teach you a technique here and how to use it. Talk to trees, look at the birds. Whatever it takes. Let your imagination just wonder around when you're doing these things. Sometimes you learn more from your mistakes than you do from your masterpieces.
+

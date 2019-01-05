@@ -7,16 +7,52 @@ categories:
 - Category 1
 - '#random'
 - Category 3
+tag: "Doctor Who"
+summary: "I hate yogurt. It's just stuff with bits in. Sorry, checking all the water in this area; there's an escaped fish. You hate me; you want to kill me! Well, go on! Kill me! KILL ME! You hit me with a cricket bat."
 ---
 Blog post with 3 categories.
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu varius nisl, sit amet tempor turpis. Integer non lacinia odio. Nam sodales lacus tellus, sed ultrices nisl facilisis ut. Cras rutrum semper purus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus lobortis tempor. Etiam euismod sapien vel nisi lobortis condimentum. Sed porttitor quam ut ullamcorper pellentesque. Duis maximus odio sed nulla hendrerit placerat. Mauris sed ultrices tortor. Donec dictum tortor massa. Sed purus nisl, aliquam sed ullamcorper non, aliquet eget sapien.
+# I hate yogurt. It's just stuff with bits in.
 
-Donec non dignissim nulla, nec laoreet orci. Phasellus cursus tristique eros, eu euismod odio scelerisque sit amet. In eget euismod erat. Sed maximus cursus eros ac molestie. Aenean fermentum ultrices eros quis imperdiet. Donec eleifend leo nec odio cursus tempus. Nullam eu lacinia sapien, vitae varius elit. Sed semper, elit tincidunt ultrices consequat, orci odio ullamcorper ante, in placerat est mauris ac augue.
+It's a fez. I wear a fez now. Fezes are cool. I am the last of my species, and I know how that weighs on the heart so don't lie to me! No… It's a thing; it's like a plan, but with more greatness.
 
-Sed ultricies est turpis. Fusce gravida felis ut tortor tempor imperdiet. Quisque id eleifend nisi. Sed id metus lacinia, sagittis neque a, fermentum odio. Etiam non quam arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque accumsan metus a mi facilisis, placerat tincidunt libero mattis. Nulla ut ante ante. In scelerisque vitae felis ac suscipit. Nulla eget velit magna. Aliquam eget lacinia purus, quis finibus libero. Nullam tincidunt lacus velit, ut dapibus ex tincidunt et. Duis ac leo sed ipsum fringilla ultrices. Mauris id dolor ipsum.
+No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister. You hit me with a cricket bat. __You hit me with a cricket bat.__ *Aw, you're all Mr.* Grumpy Face today.
 
-Suspendisse potenti. Proin placerat pellentesque porta. Nullam tincidunt varius ante, eget ultrices lorem venenatis in. Donec porta fringilla ipsum eget ultrices. Nam eget massa vel tellus consequat ultricies a ac erat. Nulla quam nisl, semper luctus nunc in, malesuada suscipit enim. Cras ante eros, cursus nec nisl in, maximus auctor mi. Donec fringilla magna odio, nec eleifend risus tincidunt vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam hendrerit nibh ac mauris accumsan, sed sodales purus tempus. Aliquam convallis neque at euismod molestie. Phasellus luctus ultricies mauris, in venenatis nulla tincidunt interdum. Praesent mollis tellus eu erat cursus pellentesque. Praesent rhoncus lobortis nisl vel laoreet.
+## No… It's a thing; it's like a plan, but with more greatness.
 
-Phasellus efficitur ullamcorper suscipit. Aenean et enim quam. Integer malesuada ipsum vitae elit iaculis accumsan. Phasellus id orci fermentum, vulputate risus eu, cursus nibh. Mauris dui metus, imperdiet nec suscipit a, malesuada pulvinar purus. Donec consequat est eget ornare porta. Integer fringilla lacus a nisi ornare cursus. Nam mauris magna, tincidunt at felis nec, malesuada eleifend odio. Nunc eget dolor lorem. In nulla massa, ullamcorper semper orci quis, tristique facilisis lorem. Praesent vitae lorem non metus placerat placerat nec sed tortor. Morbi ac dapibus arcu. Donec porta ullamcorper fringilla. Nulla vitae volutpat sapien. Integer feugiat, est quis luctus hendrerit, libero felis vehicula leo, sit amet laoreet nunc felis nec urna. Nulla porta lectus sit amet vestibulum iaculis.
+You hit me with a cricket bat. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. I am the last of my species, and I know how that weighs on the heart so don't lie to me!
+
+1. The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant.
+2. It's a fez. I wear a fez now. Fezes are cool.
+3. You know how I sometimes have really brilliant ideas?
+
+### You hit me with a cricket bat.
+
+It's a fez. I wear a fez now. Fezes are cool. I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. No… It's a thing; it's like a plan, but with more greatness.
+
+* Saving the world with meals on wheels.
+* I am the last of my species, and I know how that weighs on the heart so don't lie to me!
+* It's a fez. I wear a fez now. Fezes are cool.
+
+It's art! A statement on modern society, 'Oh Ain't Modern Society Awful?'! They're not aliens, they're Earth…liens! I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself.
+
+I'm the Doctor, I'm worse than everyone's aunt. *catches himself* And that is not how I'm introducing myself. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong?
+
+The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant. They're not aliens, they're Earth…liens!
+
+You've swallowed a planet! I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship. I am the last of my species, and I know how that weighs on the heart so don't lie to me!
+
+I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. Annihilate? No. No violence. I won't stand for it. Not now, not ever, do you understand me?! I'm the Doctor, the Oncoming Storm - and you basically meant beat them in a football match, didn't you?
+
+No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister. Father Christmas. Santa Claus. Or as I've always known him: Jeff. Stop talking, brain thinking. Hush.
+
+You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better? No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister.
+
+I am the last of my species, and I know how that weighs on the heart so don't lie to me! *Insistently* Bow ties are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes do! I hate yogurt. It's just stuff with bits in.
+
+I am the Doctor, and you are the Daleks! Sorry, checking all the water in this area; there's an escaped fish. No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister.
+
+All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? Stop talking, brain thinking. Hush. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong?
+
+Aw, you're all Mr. Grumpy Face today. *Insistently* Bow ties are cool! Come on Amy, I'm a normal bloke, tell me what normal blokes do! Father Christmas. Santa Claus. Or as I've always known him: Jeff. They're not aliens, they're Earth…liens!

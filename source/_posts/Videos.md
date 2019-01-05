@@ -2,8 +2,13 @@
 title: Videos
 date: 2018-10-14 14:16:36
 tags:
+- Music
+- Videos
+- Demo
+- Music TV
+category: Music
 featured_image: images/videos.jpg
-summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus libero laoreet quam consequat mattis. Mauris efficitur eros purus, id placerat metus luctus id.'
+summary: "I was having the most wonderful dream. Except you were there, and you were there, and you were there! Yep, I remember. Hey, tell me something. You've got all this money. How come you always dress like you're doing your laundry?"
 ---
 
 Youtube
