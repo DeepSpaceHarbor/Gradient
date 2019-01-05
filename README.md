@@ -1,7 +1,7 @@
 ## Gradient - yet another hexo theme.
 ![](https://i.imgur.com/mgUL53h.jpg)
 
-[Check out the demo](https://hackable.mk).
+[Check out the demo](https://hexo-gradient.netlify.com/).
 
 ## Features
 - Responsive
