@@ -2,8 +2,8 @@
 # The object key is the label and the value is the path.
 menu:
   Home: /
-  Archives: /archives
-  Google: https://www.google.com/
+  🗂️Archives: /archives
+  Hexo: https://hexo.io/
 
 # The icons at the bottom of the page.
 # The class value comes from font awesome.
