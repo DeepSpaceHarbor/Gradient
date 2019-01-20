@@ -42,3 +42,9 @@ The configuration is done in `themes/gradient/_config.yml`
 - Twitter feed can be disabled.
 - Multiple blocks of text/html can be used in the sidebar.
 - Minor seo/social media improvements.
+
+1.4
+- New default featured image
+- Open graph support
+- Special keywords for twitter & open graph preview images.
+- Minor seo/social media improvements.
