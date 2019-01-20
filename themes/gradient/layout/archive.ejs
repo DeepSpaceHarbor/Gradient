@@ -9,13 +9,15 @@
 %>
 <% if(title) { %>
 <div class="title">
-	<h2><%=title%></h2>
+    <h2>
+        <%=title%>
+    </h2>
 </div>
 <% } %>
 
 <div class="band">
-<% page.posts.each(function(item, index){ %>
+    <% page.posts.each(function(item, index){ %>
     <%- partial('_partial/article-archive', {item: item, index:index+1}) %>
-<% }); %>
+    <% }); %>
 </div>
 <%- partial('_partial/pagination') %>

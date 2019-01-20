@@ -2,44 +2,39 @@
     <div class="row">
         <div class="col-sm-8">
             <h2 class="blog-post-title">
-            <%- item.title || item.link%>
+                <%- item.title || item.link%>
             </h2>
             <p class="meta"><i class="far fa-clock"></i>
-                <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
+                <%= item.date.format(config.date_format) %>
+                <%- partial('categories', {item: item}) %>
             </p>
             <!-- Content -->
             <%- item.content %>
-            <br/>
+            <br />
             <p class="meta">
                 <%- partial('tags', {item: item}) %>
             </p>
         </div>
 
         <div class="col-sm-4">
-                 <%- partial('sidebar', {item: item}) %>
+            <%- partial('sidebar', {item: item}) %>
         </div>
     </div>
 </div>
 <!-- Menu fade on scroll -->
 <script>
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-// Setup isScrolling variable
-var isScrolling;
-var prevScrollpos = window.pageYOffset;
-// Listen for scroll events
-window.addEventListener('scroll', function ( event ) {
-// Clear our timeout throughout the scroll
-window.clearTimeout( isScrolling );
-// Set a timeout to run after scrolling ends
-isScrolling = setTimeout(function() {
-var currentScrollPos = window.pageYOffset;
-// Run the callback
-if (prevScrollpos > currentScrollPos) {
-$("#navbar").slideDown();
-} else {
-$("#navbar").slideUp();
-}
-prevScrollpos = currentScrollPos;
-}, 66);
-}, false);
+    var isScrolling;
+    var prevScrollpos = window.pageYOffset;
+    window.addEventListener('scroll', function (event) {
+        window.clearTimeout(isScrolling);
+        isScrolling = setTimeout(function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                $("#navbar").slideDown();
+            } else {
+                $("#navbar").slideUp();
+            }
+            prevScrollpos = currentScrollPos;
+        }, 66);
+    }, false);
 </script>

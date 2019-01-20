@@ -1,9 +1,10 @@
----
+﻿---
 title: ❤️ Welcome to Gradient ❤️
 date: 2018-10-14 23:47:55
 tags: "Bob Ross Lipsum"
 category: random
 featured_image: images/welcome.jpg
+featured_open_graph: images/welcome.jpg
 summary: Gradient is clean and modern hexo theme.
 ---
 

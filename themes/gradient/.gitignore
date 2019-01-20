@@ -2,3 +2,5 @@
 source/font/Primal.otf
 source/font/PrimalWebfont.woff
 .idea/
+node_modules/*
+db.json

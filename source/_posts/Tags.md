@@ -2,6 +2,7 @@
 title: Tags
 date: 2018-10-14 14:15:50
 featured_image: images/tags.jpg
+featured_twitter: images/tags.jpg
 category: Office Ipsum
 tags:
 - Tag 1

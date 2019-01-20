@@ -2,7 +2,7 @@
 # The object key is the label and the value is the path.
 menu:
   Home: /
-  📁 Archives: /archives
+  🗂️Archives: /archives
   Hexo: https://hexo.io/
 
 # The icons at the bottom of the page.
@@ -10,7 +10,7 @@ menu:
 #  Example: if the html code for the icon is <i class="fas fa-home"></i> the value for class will be fas fa-home. 
 footer_icons:
   'Hexo.io':
-    url: 'https://github.com/RandomAdversary/Gradient'
+    url: 'https://hexo.io/'
     class: 'fas fa-home'
   '@hexojs':
     url: 'https://twitter.com/hexojs'
@@ -22,9 +22,12 @@ footer_icons:
 # This is reserved for meta tags.
 # List of supported items:
 # 1. Twitter card image. See: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary.html
+# 2. Open graph image. See: http://ogp.me/
 meta: 
   twitter:
-    image: 'https://i.imgur.com/25K9dvJ.png'
+    featured_image: img/default.jpg
+  open_graph: #Facebook
+    featured_image: img/default.jpg
 
 # The sidebar is reserved for a twitter feed and blocks of text/html.
 sidebar:

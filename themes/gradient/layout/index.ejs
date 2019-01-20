@@ -1,7 +1,6 @@
-
 <div class="band">
-<% page.posts.each(function(item, index){ %>
+    <% page.posts.each(function(item, index){ %>
     <%- partial('_partial/article-excerpt', {item: item, index:index+1}) %>
-<% }); %>
+    <% }); %>
 </div>
 <%- partial('_partial/pagination') %>
