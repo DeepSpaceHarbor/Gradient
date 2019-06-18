@@ -89,12 +89,10 @@ No language indicated, so no syntax highlighting.
 <style>
 #chartdiv {
   width: 100%;
-  height: 200px;
+  height: 500px;
 }
 
 </style>
-<!-- HTML -->
-<div id="chartdiv"></div>
 
 <!-- Resources -->
 <script src="https://www.amcharts.com/lib/4/core.js"></script>
@@ -103,76 +101,90 @@ No language indicated, so no syntax highlighting.
 
 <!-- Chart code -->
 <script>
+am4core.ready(function() {
+
 // Themes begin
 am4core.useTheme(am4themes_animated);
 // Themes end
 
+
+
 // Create chart instance
-var chart = am4core.create("chartdiv", am4charts.XYChart);
+var chart = am4core.create("chartdiv", am4charts.RadarChart);
 
 // Add data
 chart.data = [{
-    "name": "John",
-    "points": 35654,
-    "color": chart.colors.next(),
-    "bullet": "https://www.amcharts.com/lib/images/faces/A04.png"
+  "category": "Research",
+  "value": 80,
+  "full": 100
 }, {
-    "name": "Damon",
-    "points": 65456,
-    "color": chart.colors.next(),
-    "bullet": "https://www.amcharts.com/lib/images/faces/C02.png"
+  "category": "Marketing",
+  "value": 35,
+  "full": 100
 }, {
-    "name": "Patrick",
-    "points": 45724,
-    "color": chart.colors.next(),
-    "bullet": "https://www.amcharts.com/lib/images/faces/D02.png"
+  "category": "Distribution",
+  "value": 92,
+  "full": 100
 }, {
-    "name": "Mark",
-    "points": 13654,
-    "color": chart.colors.next(),
-    "bullet": "https://www.amcharts.com/lib/images/faces/E01.png"
+  "category": "Human Resources",
+  "value": 68,
+  "full": 100
 }];
 
+// Make chart not full circle
+chart.startAngle = -90;
+chart.endAngle = 180;
+chart.innerRadius = am4core.percent(20);
+
+// Set number format
+chart.numberFormatter.numberFormat = "#.#'%'";
+
 // Create axes
-var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
-categoryAxis.dataFields.category = "name";
-categoryAxis.renderer.grid.template.disabled = true;
-categoryAxis.renderer.minGridDistance = 30;
-categoryAxis.renderer.inside = true;
-categoryAxis.renderer.labels.template.fill = am4core.color("#fff");
-categoryAxis.renderer.labels.template.fontSize = 20;
+var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+categoryAxis.dataFields.category = "category";
+categoryAxis.renderer.grid.template.location = 0;
+categoryAxis.renderer.grid.template.strokeOpacity = 0;
+categoryAxis.renderer.labels.template.horizontalCenter = "right";
+categoryAxis.renderer.labels.template.fontWeight = 500;
+categoryAxis.renderer.labels.template.adapter.add("fill", function(fill, target) {
+  return (target.dataItem.index >= 0) ? chart.colors.getIndex(target.dataItem.index) : fill;
+});
+categoryAxis.renderer.minGridDistance = 10;
 
-var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
-valueAxis.renderer.grid.template.strokeDasharray = "4,4";
-valueAxis.renderer.labels.template.disabled = true;
+var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+valueAxis.renderer.grid.template.strokeOpacity = 0;
 valueAxis.min = 0;
-
-// Do not crop bullets
-chart.maskBullets = false;
-
-// Remove padding
-chart.paddingBottom = 0;
+valueAxis.max = 100;
+valueAxis.strictMinMax = true;
 
 // Create series
-var series = chart.series.push(new am4charts.ColumnSeries());
-series.dataFields.valueY = "points";
-series.dataFields.categoryX = "name";
-series.columns.template.propertyFields.fill = "color";
-series.columns.template.propertyFields.stroke = "color";
-series.columns.template.column.cornerRadiusTopLeft = 15;
-series.columns.template.column.cornerRadiusTopRight = 15;
-series.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/b]";
+var series1 = chart.series.push(new am4charts.RadarColumnSeries());
+series1.dataFields.valueX = "full";
+series1.dataFields.categoryY = "category";
+series1.clustered = false;
+series1.columns.template.fill = new am4core.InterfaceColorSet().getFor("alternativeBackground");
+series1.columns.template.fillOpacity = 0.08;
+series1.columns.template.cornerRadiusTopLeft = 20;
+series1.columns.template.strokeWidth = 0;
+series1.columns.template.radarColumn.cornerRadius = 20;
 
-// Add bullets
-var bullet = series.bullets.push(new am4charts.Bullet());
-var image = bullet.createChild(am4core.Image);
-image.horizontalCenter = "middle";
-image.verticalCenter = "bottom";
-image.dy = 20;
-image.y = am4core.percent(100);
-image.propertyFields.href = "bullet";
-image.tooltipText = series.columns.template.tooltipText;
-image.propertyFields.fill = "color";
-image.filters.push(new am4core.DropShadowFilter());
+var series2 = chart.series.push(new am4charts.RadarColumnSeries());
+series2.dataFields.valueX = "value";
+series2.dataFields.categoryY = "category";
+series2.clustered = false;
+series2.columns.template.strokeWidth = 0;
+series2.columns.template.tooltipText = "{category}: [bold]{value}[/]";
+series2.columns.template.radarColumn.cornerRadius = 20;
+
+series2.columns.template.adapter.add("fill", function(fill, target) {
+  return chart.colors.getIndex(target.dataItem.index);
+});
+
+// Add cursor
+chart.cursor = new am4charts.RadarCursor();
+
+}); // end am4core.ready()
 </script>
 
+<!-- HTML -->
+<div id="chartdiv"></div>

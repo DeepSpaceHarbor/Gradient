@@ -7,7 +7,7 @@ tags:
 - ha ha ha 
 featured_image: images/images.jpg
 category: funny
-summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus libero laoreet quam consequat mattis. Mauris efficitur eros purus, id placerat metus luctus id.'
+summary: 'My supervisor didn''t like the latest revision you gave me, can you switch back to the first revision?'
 ---
 
 
