@@ -23,7 +23,7 @@ Install the theme by using:
 Then update your blog's main _config.yml to set the theme to gradient.
 
 ## Configuration
-The configuration is done in `themes/gradient/_config.yml`
+The configuration details can be found in the [wiki page.](https://github.com/RandomAdversary/Gradient/wiki)
 
 
 ## Changelog
