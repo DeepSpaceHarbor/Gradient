@@ -1,39 +1,33 @@
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
-  <% if(page.title){ %>
-  <title>
-    <%=page.title%> |
-    <%=config.title%>
-  </title>
-  <% } else{ %>
-  <title>
-    <%=config.title%> -
-    <%=config.description%>
-  </title>
-  <% } %>
+    <% if(page.title){ %>
+    <title>
+        <%=page.title%> | <%=config.title%>
+    </title>
+    <% } else{ %>
+    <title>
+        <%=config.title%> - <%=config.description%>
+    </title>
+    <% } %>
 
+    <meta name="description" content="<%=page.summary || config.description%>" />
+    <meta name="author" content="<%=config.author%>" />
+    <meta property="og:title" content="<%=page.title || config.title%>" />
+    <meta property="og:description" content="<%=page.summary || config.description%>" />
+    <meta property="og:site_name" content="<%=config.title%>" />
+    <meta property="og:image" content="<%=config.url%>/<%=page.featured_open_graph || theme.meta.open_graph.featured_image%>" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="<%=page.summary || config.description%>" />
+    <meta name="twitter:title" content="<%=page.title || config.title%>" />
 
-  <meta name="description" content="<%=page.summary || config.description%>">
-  <meta name="author" content="<%=config.author%>">
-  <meta property="og:title" content="<%=page.title || config.title%>" />
-  <meta property="og:description" content="<%=page.summary || config.description%>" />
-  <meta property='og:site_name' content='<%=config.title%>' />
-  <meta property="og:image" content="<%=config.url%>/<%=page.featured_open_graph || theme.meta.open_graph.featured_image%>" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:description" content="<%=page.summary || config.description%>" />
-  <meta name="twitter:title" content="<%=page.title || config.title%>" />
+    <meta name="twitter:image" content="<%=config.url%>/<%=page.featured_twitter || theme.meta.twitter.featured_image || page.featured_open_graph || theme.meta.open_graph.featured_image%>" />
 
-  <meta name="twitter:image" content="<%=config.url%>/<%=page.featured_twitter || theme.meta.twitter.featured_image || page.featured_open_graph || theme.meta.open_graph.featured_image%>" />
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 
-  <script src="https://www.amcharts.com/lib/4/core.js"></script>
-  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
-  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
-  <%- css('./css/style.css') %>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+    <%- css(config.url + '/css/style.css') %>
 </head>
