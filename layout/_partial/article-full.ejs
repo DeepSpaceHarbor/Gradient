@@ -1,12 +1,12 @@
 <div class="container blogPost">
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-9 px-md-5">
             <h2 class="blog-post-title">
                 <%- item.title || item.link%>
             </h2>
-            <p class="meta"><i class="far fa-clock"></i>
-                <%= item.date.format(config.date_format) %>
-                <%- partial('categories', {item: item}) %>
+            <p class="meta">
+                <i class="far fa-clock"></i>
+                <%= item.date.format(config.date_format) %> <%- partial('categories', {item: item}) %>
             </p>
             <!-- Content -->
             <%- item.content %>
@@ -16,7 +16,7 @@
             </p>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <%- partial('sidebar', {item: item}) %>
         </div>
     </div>
@@ -25,16 +25,20 @@
 <script>
     var isScrolling;
     var prevScrollpos = window.pageYOffset;
-    window.addEventListener('scroll', function (event) {
-        window.clearTimeout(isScrolling);
-        isScrolling = setTimeout(function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                $("#navbar").slideDown();
-            } else {
-                $("#navbar").slideUp();
-            }
-            prevScrollpos = currentScrollPos;
-        }, 66);
-    }, false);
+    window.addEventListener(
+        'scroll',
+        function(event) {
+            window.clearTimeout(isScrolling);
+            isScrolling = setTimeout(function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    $('#navbar').slideDown();
+                } else {
+                    $('#navbar').slideUp();
+                }
+                prevScrollpos = currentScrollPos;
+            }, 66);
+        },
+        false
+    );
 </script>
