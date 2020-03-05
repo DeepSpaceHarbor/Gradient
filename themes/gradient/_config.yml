@@ -10,13 +10,13 @@ menu:
 #  Example: if the html code for the icon is <i class="fas fa-home"></i> the value for class will be fas fa-home. 
 footer_icons:
   'Hexo.io':
-    url: 'https://hexo.io/'
+    url: 'https://borche.dev'
     class: 'fas fa-home'
   '@hexojs':
-    url: 'https://twitter.com/hexojs'
+    url: 'https://twitter.com/DeepSpaceHarbor'
     class: 'fab fa-twitter'
   'Report issue':
-    url: 'https://github.com/RandomAdversary/Gradient/issues'
+    url: 'https://github.com/DeepSpaceHarbor/Gradient/issues'
     class: 'fas fa-bug'
 
 # This is reserved for meta tags.
