@@ -1,4 +1,4 @@
-## Gradient - yet another hexo theme.
+## Gradient
 [![](https://i.imgur.com/mgUL53h.jpg)](https://hexo-gradient.netlify.com/)
 
 [Check out the demo](https://deepspaceharbor.github.io/Gradient/).
