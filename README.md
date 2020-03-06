@@ -1,7 +1,7 @@
 ## Gradient - yet another hexo theme.
 [![](https://i.imgur.com/mgUL53h.jpg)](https://hexo-gradient.netlify.com/)
 
-[Check out the demo](https://hexo-gradient.netlify.com/).
+[Check out the demo](https://deepspaceharbor.github.io/Gradient/).
 
 ## Features
 - Responsive
