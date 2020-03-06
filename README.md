@@ -18,12 +18,12 @@
 
 Install the theme by using:
 
-`$ git clone https://github.com/RandomAdversary/Gradient.git themes/gradient`
+`$ git clone https://github.com/DeepSpaceHarbor/Gradient.git`
 
 Then update your blog's main _config.yml to set the theme to gradient.
 
 ## Configuration
-Configuration details can be found in the [wiki page.](https://github.com/RandomAdversary/Gradient/wiki)
+Configuration details can be found in the [wiki page.](https://github.com/DeepSpaceHarbor/Gradient/wiki)
 
 
 ## Changelog
