@@ -1,4 +1,4 @@
-[![](https://i.imgur.com/mgUL53h.jpg)](https://hexo-gradient.netlify.com/)
+[![](https://i.imgur.com/mgUL53h.jpg)](https://deepspaceharbor.github.io/Gradient/)
 
 [Check out the demo](https://deepspaceharbor.github.io/Gradient/).
 
