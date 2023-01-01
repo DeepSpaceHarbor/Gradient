@@ -15,6 +15,6 @@ This is post with long title.
 
 Btw, what's our go to market strategy?
 <video width="620" height="440" controls autoplay>
-  <source src="/videos/catnap.mp4" type="video/mp4">
+  <source src="/Gradient/videos/catnap.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
