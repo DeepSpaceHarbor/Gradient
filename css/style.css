@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+@font-face {
+    font-family: GoodTimes;
+    src: url('../font/Typodermic - GoodTimesRg-Regular.ttf') format('truetype'), url('../font/Typodermic - GoodTimesRg-Regular.otf') format('opentype');
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #f5f7f8;
+    cursor: url('../img/cursor.png'), auto;
+}
+
+a {
+    cursor: url('../img/cursor_hand.png'), auto !important;
+}
+
+.logo {
+    font-family: GoodTimes, Lato, sans-serif;
+    text-transform: uppercase;
+}
+.page-navbar.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-navbar .navbar-nav .nav-item a {
+    font-weight: bold;
+    /*  font-weight: bold; */
+}
+
+.nav-link:hover {
+    opacity: 1;
+    color: #313133;
+    background-color: #313133;
+}
+
+.page-navbar.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.page-navbar .logo {
+    font-size: 1.5rem;
+}
+
+.page-navbar.fixed-top + .page {
+    padding-top: 62px;
+}
+
+.gradient {
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+    color: #fff !important;
+}
+
+.page-footer {
+    padding-top: 12px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.page-footer a {
+    display: inline-block;
+    margin: 0px 5px;
+    color: #282b2d;
+    font-size: 18px;
+}
+
+.page-footer .links {
+    display: inline-block;
+}
+
+.page-footer .social-icons {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.page-footer .social-icons a {
+    font-size: 18px;
+    margin: 0 3px;
+    color: #ffffff;
+    border: 1px solid;
+    opacity: 0.75;
+    border-radius: 50%;
+    width: 36px;
+    display: inline-block;
+    height: 36px;
+    text-align: center;
+    background-color: #c5c9d2;
+    line-height: 34px;
+}
+
+.page-footer .social-icons a:hover {
+    opacity: 1;
+    text-decoration: none !important;
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+}
+
+.band {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding-top: 5%;
+}
+
+.title + .band {
+    padding-top: 0%;
+}
+
+@media (min-width: 30em) {
+    .band {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 60em) {
+    .band {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.post {
+    background: white;
+    text-decoration: none !important;
+    color: #444 !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.1s ease-in;
+    margin-top: 5px;
+}
+.post:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.post article {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.post h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+.post p {
+    flex: 1;
+    line-height: 1.4;
+    margin-top: 5px;
+}
+.post span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2em 0 0 0;
+}
+.post .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 60em) {
+    .item-1 {
+        grid-column: 1 / span 2;
+    }
+    .item-1 h1 {
+        font-size: 24px;
+    }
+}
+
+.paginationbtn {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.paginationbtn:hover {
+    opacity: 0.85;
+}
+
+.blogPost {
+    margin-top: 5% !important;
+}
+
+.meta {
+    color: #6c757d;
+    opacity: 0.8;
+}
+
+.meta a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.title {
+    margin-top: 3% !important;
+    margin-left: 5%;
+}
+
+blockquote {
+    border-left: 5px solid #2e64e6;
+}
+
+blockquote > * {
+    margin-left: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.toc {
+    margin-left: -50%;
+}
+
+.toc > * {
+    list-style-type: ' ';
+}
+.toc > * > * {
+    list-style-type: ' ';
+}
