@@ -1,6 +1,10 @@
 <div class="item-0<%=index%>">
   <a href="<%- config.root %><%- item.path %>" class="post">
+    <% if (item.featured_image && config.post_asset_folder) { %>
+    <div class="thumb" style="background-image: url(<%- config.root %><%- item.path %><%- item.featured_image %>);"></div>
+      <% } else {%>
     <div class="thumb" style="background-image: url(<%- config.root %><%- item.featured_image || theme.featured_image %>);"></div>
+    <% }%>
     <article>
       <h1>
         <%=item.title %>
